@@ -10,14 +10,13 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin: 30px;
 }
 article,
 aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 main,
@@ -1585,8 +1584,8 @@ pre code {
 .container {
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 @media (min-width: 768px) {
   .container {
@@ -2444,7 +2443,19 @@ table th[class*="col-"] {
   min-height: .01%;
   overflow-x: auto;
 }
+
+
+@media screen and (max-width:1000px){
+    .line{
+    display:none;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
+    .line{
+    display:none;
+    }
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -4324,7 +4335,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin-left: 15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4531,14 +4542,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: ;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: ;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: ;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -4592,7 +4603,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #fff;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
@@ -4600,7 +4611,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #fff;
+  color: #080808;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
@@ -4611,7 +4622,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #080808;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
