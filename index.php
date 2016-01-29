@@ -9,7 +9,7 @@
     $template = new PHPTAL('index.xhtml');
 
     // now add the variables for processing and that you created from above:
-    $template->page_title = "Index Page with PHPTAL";
+    $template->page_title = "Tato Bags";
 
 
     // execute the template
